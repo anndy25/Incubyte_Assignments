@@ -9,13 +9,26 @@ package org;
 public class FizzBuzz {
  public String converter(int number){
      String answer="";
+     boolean isThree=false;
+     boolean isFive=false;
+     int num=number;
+     while(num!=0){
+         int current=num%10;
+         num=num/10;
+         if(current==5) isFive=true;
+         if(current==3) isThree=true;
+     }
+     
+     if(isThree) answer+="Fizz";
+     if(isFive) answer+="Buzz";
+
      if(number%3==0){
          answer+="Fizz";
      }
      if(number%5==0){
          answer+="Buzz";
      }
-     if(number%3!=0 && number%5!=0){
+     if((!isThree && !isFive)  && (number%3!=0 && number%5!=0)){
          answer+=""+number;
      }
 

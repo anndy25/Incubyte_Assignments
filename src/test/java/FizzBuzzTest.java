@@ -21,26 +21,51 @@ class FizzBuzzTest {
         assertEquals("14",fizzbuzz.converter(14));
     }
 
-    // TODO:- If should return "Fizz" if given number is only divible by 3;
+    // TODO:- It should return "Fizz" if given number is only divible by 3;
     @Test
     void shouldReturnedFizzString(){
-        assertEquals("Fizz",fizzbuzz.converter(3));
         assertEquals("Fizz",fizzbuzz.converter(9));
         assertEquals("Fizz",fizzbuzz.converter(18));
     }
 
-    // TODO:- If should return "Fizz" if given number is only divible by 5;
+    // TODO:- It should return "Fizz" if given number is only divible by 5;
     @Test
     void shouldReturnedBuzzString(){
-        assertEquals("Buzz",fizzbuzz.converter(5));
         assertEquals("Buzz",fizzbuzz.converter(10));
         assertEquals("Buzz",fizzbuzz.converter(20));
     }
-    // TODO:- If should return "FizzBuzz" if given number is  divible by 3 and 5;
+    // TODO:- It should return "FizzBuzz" if given number is  divible by 3 and 5;
     @Test
     void shouldReturnedFizzBuzzString(){
-        assertEquals("FizzBuzz",fizzbuzz.converter(15));
-        assertEquals("FizzBuzz",fizzbuzz.converter(30));
+        assertEquals("FizzBuzz",fizzbuzz.converter(90));
         assertEquals("FizzBuzz",fizzbuzz.converter(60));
     }
+
+     /* Activity No. 2:
+                1)53 should return FizzBuzz (contain 5 and 3)
+                2)35 should return FizzBuzzBuzz (contain 3 and 5 and it divided by 5)
+     */
+
+    //TODO:- It should return "Fizz" If given number contain only 3
+    @Test
+    void shouldReturnFizzIfNumberContainThree(){
+        assertEquals("Fizz",fizzbuzz.converter(31));
+        assertEquals("Fizz",fizzbuzz.converter(13));
+    }
+    //TODO:- It should return "Buzz" if given number contain only  5
+    @Test
+    void shouldReturnBuzzIfNumberContainFive(){
+        assertEquals("Buzz",fizzbuzz.converter(58));
+        assertEquals("BuzzBuzz",fizzbuzz.converter(55));
+    }
+
+    //TODO:- It should return "FizzBuzz" if given number contain 3 ans 5
+    @Test
+    void shouldReturnedFizzBuzzIfContainThreeAndFive(){
+        assertEquals("FizzBuzzBuzz",fizzbuzz.converter(35));
+        assertEquals("FizzBuzz",fizzbuzz.converter(53));
+    }
+
+
+
 }

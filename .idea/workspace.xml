@@ -66,11 +66,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.shouldReturnedGivenNumberOnly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest.shouldReturnBuzzIfNumberContainFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Incubyte_Assignments" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="shouldReturnedGivenNumberOnly" />
+      <option name="METHOD_NAME" value="shouldReturnBuzzIfNumberContainFive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.shouldReturnBuzzIfNumberContaineFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Incubyte_Assignments" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="METHOD_NAME" value="shouldReturnBuzzIfNumberContaineFive" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.shouldReturnFizzIfNumberContainThree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Incubyte_Assignments" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="METHOD_NAME" value="shouldReturnFizzIfNumberContainThree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.shouldReturnedFizzBuzzIfContainThreeAndFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Incubyte_Assignments" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="METHOD_NAME" value="shouldReturnedFizzBuzzIfContainThreeAndFive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,7 +109,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="JUnit.FizzBuzzTest.shouldReturnedGivenNumberOnly" />
+        <item itemvalue="JUnit.FizzBuzzTest.shouldReturnedFizzBuzzIfContainThreeAndFive" />
+        <item itemvalue="JUnit.FizzBuzzTest.shouldReturnBuzzIfNumberContainFive" />
+        <item itemvalue="JUnit.FizzBuzzTest.shouldReturnBuzzIfNumberContaineFive" />
+        <item itemvalue="JUnit.FizzBuzzTest.shouldReturnFizzIfNumberContainThree" />
       </list>
     </recent_temporary>
   </component>
